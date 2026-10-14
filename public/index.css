@@ -33,7 +33,7 @@ header {
     align-items: center;
     z-index: 100;
     background-color: var(--black);
-    width: 100%;
+    width: 100vw;
     height: 64px;
     gap: 32px;
     border-bottom: 1px solid var(--outline);
@@ -399,7 +399,7 @@ footer img {
     }
 
     .hero-main {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
     .hero-right {
@@ -408,14 +408,21 @@ footer img {
 
     .languages-main {
         font-size: 1.5rem;
+        text-align: center;
     }
 
     .languages-sub {
         font-size: 1rem;
+        text-align: center;
+    }
+
+    .language-logos img {
+        width: 24px;
     }
 
     .projects-holder {
         width: 95%;
+        min-width: 0;
     }
 
     .project-image {
